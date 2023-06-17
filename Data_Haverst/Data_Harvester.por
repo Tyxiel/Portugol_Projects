@@ -1,19 +1,19 @@
 programa {
   funcao inicio() {
 
-    // Pesquisa com 100 (cem) habitantes de uma regi„o.
-    // Foram coletados os dados de idade, sexo (M/F) e sal·rio.
+    // Pesquisa com 100 (cem) habitantes de uma regi√£o.
+    // Foram coletados os dados de idade, sexo (M/F) e sal√°rio.
 
     // Possui: 
 
-    // MÈdia salarial masculina
-    // MÈdia salarial feminina
+    // M√©dia salarial masculina
+    // M√©dia salarial feminina
 
     // Maior e menor idade do sexo masculino e feminino
 
-    // Homens e mulheres com s·lario entre R$1000 e R$3000
+    // Homens e mulheres com s√°lario entre R$1000 e R$3000
 
-    // Percentual de homens e mulheres com sal·rio maior que R$2000
+    // Percentual de homens e mulheres com sal√°rio maior que R$2000
 
     real idade, maior_idade_masc, maior_idade_fem, media_masc, media_fem
 
@@ -31,12 +31,12 @@ programa {
     maior_idade_masc = 0
     maior_idade_fem = 0
 
-    // MÈdia salarial
+    // M√©dia Salarial
 
     media_masc = 0
     media_fem = 0
 
-    // Colher o sal·rio 
+    // Colher o sal√°rio 
 
     slr = 0
     m_slr = 0
@@ -47,7 +47,7 @@ programa {
     qntd_m = 0
     qntd_f = 0
 
-    // Sal·rio entre R$1000 e R$3000
+    // Sal√°rio entre R$1000 e R$3000
 
     qntd_masc_1_3 = 0
     qntd_fem_1_3 = 0
@@ -65,7 +65,7 @@ programa {
       escreva("Digite seu sexo (F/M): ")
       leia(sexo)
 
-      escreva("Digite seu sal·rio: ")
+      escreva("Digite seu sal√°rio: ")
       leia(slr)
 
       // Masculino
@@ -107,7 +107,7 @@ programa {
       }    
     }
 
-    // AlgorÌtimos
+    // Algor√≠timos
 
     media_masc = m_slr / 100
     media_fem = f_slr / 100
@@ -119,13 +119,13 @@ programa {
 
     perc_ambos = (total_f + total_m) / 100
 
-    // SaÌda dos valores
+    // Sa√≠da dos valores
 
-    escreva("A mÈdia sal·rial masculina È R$ ", media_masc, "\n")
-    escreva("A mÈdia sal·rial feminima È R$ ", media_fem, "\n\n")
+    escreva("A m√©dia sal√°rial masculina √© R$ ", media_masc, "\n")
+    escreva("A m√©dia sal√°rial feminima √© R$ ", media_fem, "\n\n")
 
-    escreva("Quant. de homens com sal·rio entre R$1000 e R$3000", qntd_mas_1_3, "\n")
-    escreva("Quant. de mulheres com sal·rio entre R$1000 e R$3000", qntd_fem_1_3, "\n\n")
+    escreva("Quant. de homens com sal√°rio entre R$1000 e R$3000", qntd_mas_1_3, "\n")
+    escreva("Quant. de mulheres com sal√°rio entre R$1000 e R$3000", qntd_fem_1_3, "\n\n")
 
     escreva("Percentual entre homens e mulheres R$1000 - R$3000", perc_ambos)
 
